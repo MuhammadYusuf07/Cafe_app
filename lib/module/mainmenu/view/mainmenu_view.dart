@@ -57,7 +57,14 @@ class MainmenuView extends StatefulWidget {
                 child: Container(
                   padding: const EdgeInsets.all(20.0),
                   width: 100,
-                  decoration: const BoxDecoration(),
+                  decoration: const BoxDecoration(
+                    image: DecorationImage(
+                      image: NetworkImage(
+                        "https://previews.123rf.com/images/krulua/krulua1503/krulua150300162/38191007-abstract-technology-background-vector.jpg",
+                      ),
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
